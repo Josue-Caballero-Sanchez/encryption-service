@@ -5,6 +5,8 @@ web page built using HTML, CSS, and JavaScript that calls the service.
 The web page allows users to input messages and a seed value to securely encrypt and decrypt text
 using the API.
 
+### **[Download Project](https://github.com/Josue-Caballero-Sanchez/encryption-service/archive/refs/heads/master.zip)**
+
 ![thumbnail](encryption-thumbnail.png)
 
 ## Built with
