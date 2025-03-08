@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cypher Encryption/Decryption</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <script src="JavaScript.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Cypher Encryption/Decryption</h2>
+
+        <div class="section">
+            <h3>Encryption</h3>
+            <label for="message">Enter your message:</label>
+            <input type="text" id="message" placeholder="Enter text here">
+
+            <label for="seed">Enter seed:</label>
+            <input type="number" id="seed" placeholder="Enter a number">
+
+            <button onclick="encryptMessage()">Encrypt</button>
+            <p class="result" id="result"></p>
+            <button onclick="sendToReceiver()">Send to Receiver</button>
+        </div>
+
+        <div class="section">
+            <h3>Decryption</h3>
+            <label>The message received:</label>
+            <p class="result" id="result2"></p>
+
+            <label for="seed2">Enter seed:</label>
+            <input type="number" id="seed2" placeholder="Enter a number">
+
+            <button onclick="decryptMessage()">Decrypt</button>
+            <p class="result" id="result3"></p>
+            <button onclick="returnToSender()">Return to Sender Page</button>
+        </div>
+    </div>
+</body>
+</html>
