@@ -12,7 +12,7 @@ using the API.
 ## Built with
 
 - C#
-- ASP.NET
+- .Net
 - HTML
 - CSS
 - JavaScript
